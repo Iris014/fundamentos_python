@@ -2,7 +2,13 @@ print("Hola, mundo")
 print("Estoy aprendiendo Python")
 print("Mi primer programa funciona correctamente")
 
-print("Iris")
-print("Curso 3C")
-print("Especialidad Programación")
-print("Me gustaría administrar datos en Python.")
+# Crear una frase con nombre. curso, especialidad, y una
+# que describa lo que te gustaría aprender
+nombre = "Iris"
+curso = "3C"
+especialidad = "Programación"
+frase = "Me gustaría administrar datos en Python"
+print(f"""Nombre: {nombre}
+Curso: {curso}
+Especialidad: {especialidad}
+{frase}""")
