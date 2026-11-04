@@ -87,11 +87,11 @@ internet = True
 tarea = True
 clases = False
 print(f"""
-¿Tiene Internet?: {internet}
-¿Terminó la tarea?: {tarea}
+¿Tienes Internet?: {internet}
+¿Terminaste la tarea?: {tarea}
 ¿Tienes clases mañana?: {clases}
 
-Tipo de dato (Internet):
+Tipo de dato:
 {type(internet)}
 """)
 
